@@ -1,6 +1,5 @@
 const prompt=require('prompt-sync')();
-let d=prompt("please enter day number");
-d=parseInt(d);
+let d=parseInt(prompt("please enter day number:-"));
 if (d==1){
     console.log("Monday");
 }

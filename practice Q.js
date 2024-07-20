@@ -1,13 +1,13 @@
-// var name="Dular Pandey" ;
-// var surname="Pandey" ;
+// var name="Dular";
+// var surname="Pandey";
 // console.log("Hello",name,surname);
 
 
 
-// var day=7;
+// var date=7;
 // var month="July";
 // var year=2007;
-// console.log("Birthday of Pandeyji",day,month,year);
+// console.log("Birthday of Pandeyji",date,month,year);
 
 
 
@@ -172,3 +172,13 @@
 // else{
 //     console.log("It's even number");
 // }
+
+
+// let n=2;
+// let i=1;
+// let nam="bedanti";
+// while (i<=n){
+//     console.log(nam);
+//     i+=1;
+// }
+

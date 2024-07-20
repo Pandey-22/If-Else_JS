@@ -1,5 +1,5 @@
 const prompt=require('prompt-sync')();
-let days=parseInt(prompt("enter the number"));
+let days=parseInt(prompt("enter the number:-"));
 if (days<=5){
     console.log(days*2);
 }

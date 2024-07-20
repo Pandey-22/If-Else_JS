@@ -1,5 +1,5 @@
 const prompt=require('prompt-sync')();
-let num=prompt("please enter your smallest 4 digit number");
+let num=prompt("please enter your smallest 4 digit number:-");
 num=parseInt(num);
 if (num==1000){
     console.log("Yes, This number is smallest 4 digit");

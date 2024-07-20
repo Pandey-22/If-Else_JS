@@ -1,4 +1,8 @@
 const prompt=require('prompt-sync')();
-let day=prompt("please enter the day");
-let month=prompt("please enter the month");
-let year=prompt("please enter the year");
+let year=parseInt(prompt("Please enter a year:-"));
+if (year%400==0 && year%4==0 || year%100!=0){
+    console.log("Leap Year")
+} 
+else{
+    console.log("Not a Leap Year")
+}	

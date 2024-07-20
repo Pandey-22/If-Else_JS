@@ -12,17 +12,17 @@
 
 
 
-console.log("please enter a tringle side:-");
-const prompt=require('prompt-sync')();
-let a=parseInt(prompt("x:-"));
-let b=parseInt(prompt("y:-"));
-let c=parseInt(prompt("z:-"));
-if (a==b==c){
-    console.log("equalateral");
-}
-else if (a==b || b==c || c==a){
-    console.log("isosceles tringle");
-}
-else{
-    console.log("scalene tringle");
-}
+// console.log("please enter a tringle side:-");
+// const prompt=require('prompt-sync')();
+// let a=parseInt(prompt("x:-"));
+// let b=parseInt(prompt("y:-"));
+// let c=parseInt(prompt("z:-"));
+// if (a==b==c){
+//     console.log("equalateral");
+// }
+// else if (a==b || b==c || c==a){
+//     console.log("isosceles tringle");
+// }
+// else{
+//     console.log("scalene tringle");
+// }

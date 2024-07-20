@@ -1,9 +1,9 @@
 const prompt=require('prompt-sync')();
-let p=parseInt(prompt("please enter marks for physics"));
-let ch=parseInt(prompt("please enter marks for chemistry"));
-let b=parseInt(prompt("please enter marks for biology"));
-let m=parseInt(prompt("please enter marks for mathematic"));  
-let c=parseInt(prompt("please enter marks for computer"));
+let p=parseInt(prompt("please enter marks for physics:-"));
+let ch=parseInt(prompt("please enter marks for chemistry:-"));
+let b=parseInt(prompt("please enter marks for biology:-"));
+let m=parseInt(prompt("please enter marks for mathematic:-"));  
+let c=parseInt(prompt("please enter marks for computer:-"));
 let tot=p+ch+b+m+c;
 let per=tot/5
 if (per>90){ 

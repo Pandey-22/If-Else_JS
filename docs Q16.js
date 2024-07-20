@@ -1,7 +1,6 @@
 const prompt=require('prompt-sync')();
-let number=prompt("please enter a number");
-number=parseInt(number);
-if (number>0 && number<=9){
+let number=parseInt(prompt("please enter a number:-"));
+if (number>=0 && number<=9){
     console.log("This number is 1 digit");
 }
 else if (number>9 && number<=99){

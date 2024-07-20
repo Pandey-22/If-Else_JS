@@ -1,6 +1,5 @@
 const prompt=require('prompt-sync')();
-let unit=prompt("please enter your unit");
-unit=parseInt(unit);
+let unit=parseInt(prompt("please enter your unit:-"));
 cost=unit*100;
 if (cost>100){
     discount=10;

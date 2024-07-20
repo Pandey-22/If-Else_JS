@@ -1,5 +1,5 @@
 const prompt=require('prompt-sync')();
-let month=prompt("please enter your month number");
+let month=prompt("please enter your month number:-");
 month=parseInt(month);
 if (month==1){
     console.log("January");
@@ -30,9 +30,11 @@ else if (month==9){
 }
 else if (month==10){
     console.log("October");
-}else if (month==11){
+}
+else if (month==11){
     console.log("November");
-}else if (month==12){
+}
+else if (month==12){
     console.log("December");
 }
 else{

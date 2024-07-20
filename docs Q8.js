@@ -1,7 +1,6 @@
 const prompt=require('prompt-sync')();
-let number=prompt("please enter your number");
-number=parseInt(number);
-if (number>=60){
+let age=parseInt(prompt("please enter your current age:-"));
+if (age>=60){
     console.log("This person is senior sitizen");
 }
 else{

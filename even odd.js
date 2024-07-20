@@ -1,6 +1,5 @@
 const prompt=require('prompt-sync')();
-let number=prompt("please enter your number");
-number=parseInt(number);
+let number=parseInt(prompt("please enter your number:-"));
 if (number%2==0){
     console.log("even");
 }

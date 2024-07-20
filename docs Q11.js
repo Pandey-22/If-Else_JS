@@ -1,6 +1,5 @@
 const prompt=require('prompt-sync')();
-let number=prompt("please enter a number");
-number=parseInt(number);
+let number=parseInt(prompt("please enter a number:-"));
 if (number%10==3){
     console.log("End with 3");
 }

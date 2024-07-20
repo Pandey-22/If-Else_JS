@@ -1,7 +1,6 @@
 const prompt=require('prompt-sync')();
-let number=prompt("please enter your number");
-num=parseInt(number);
-if (num%7==0){
+let number=parseInt(prompt("please enter your number:-"));
+if (number%7==0){
     console.log("Yes");
 }
 else{

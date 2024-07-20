@@ -1,5 +1,5 @@
 const prompt=require('prompt-sync')();
-let percentage=parseInt(prompt("please enter the percentage"));
+let percentage=parseInt(prompt("please enter the percentage:-"));
 if (percentage>90){
     console.log("Grade is A+");    
 }
