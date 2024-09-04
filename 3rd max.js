@@ -37,7 +37,7 @@ else if (d<b && d<c && d>a){
     console.log(d);
 }
 else if (d<c && d<a && d>b){
-    console.log();
+    console.log(d);
 }
 else{
     console.log(0);
